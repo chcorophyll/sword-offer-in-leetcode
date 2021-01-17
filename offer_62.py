@@ -2,7 +2,7 @@ from collections import deque
 
 
 class Solution:
-    
+
     def lastRemaining(self, n: int, m: int) -> int:
         if n < 1 or m < 1:
             return -1
