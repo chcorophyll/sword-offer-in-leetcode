@@ -15,4 +15,4 @@ class Solution:
             if result > boundry_num or (result == boundry_num and k > "7"):
                 return int_max if sign == 1 else int_min
             result = result * 10 + ord(k) - ord("0")
-        return result * sign      
+        return result * sign
